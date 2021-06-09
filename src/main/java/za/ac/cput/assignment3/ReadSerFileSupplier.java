@@ -38,8 +38,7 @@ public class ReadSerFileSupplier {
             System.out.println("***The file " + nameF + " was Created***");
 
         } catch (IOException ioe) {
-            ioe.printStackTrace();
-            System.exit(1);
+            System.out.println("***Error due to: " + ioe.getMessage() + "***");
         }
     }
     //--------------------------------------------------------------------------ArrayList
